@@ -6,6 +6,7 @@ import {NgIf, UpperCasePipe} from '@angular/common';
 import {AgePipe} from '../age.pipe';
 import {ExperiencePipe} from '../experience.pipe';
 import {RatingPipe} from '../pipes/ratings.pipe';
+import {HoverDirectiveDirective} from '../directives/hover-directive.directive';
 
 @Component({
   selector: 'app-sitter-detail',
@@ -17,7 +18,8 @@ import {RatingPipe} from '../pipes/ratings.pipe';
     AgePipe,
     ExperiencePipe,
     UpperCasePipe,
-    RatingPipe
+    RatingPipe,
+    HoverDirectiveDirective
   ],
   standalone: true
 })
